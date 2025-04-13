@@ -7,3 +7,5 @@ A simple React application that demonstrates three different interactive compone
 2. Automatic Loading Bar: Shows a progress bar that automatically fills up to 100%
 
 3. Manual Counter: Provides a counter that can be manually incremented and decremented
+
+   Live Project : https://9000-idx-counter-1744546261060.cluster-zkm2jrwbnbd4awuedc2alqxrpk.cloudworkstations.dev/?monospaceUid=587891
