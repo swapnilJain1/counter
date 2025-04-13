@@ -9,9 +9,24 @@ function App() {
 
   return (
     <>
-      <button onClick={() => setButton("colored")}>Colored -box</button>
-      <button onClick={() => setButton("automatic")}>Loading Bar</button>
-      <button onClick={() => setButton("manual")}>Manual Counter</button>
+      <button
+        className={button === "colored" ? "active" : ""}
+        onClick={() => setButton("colored")}
+      >
+        Colored -box
+      </button>
+      <button
+        className={button === "automatic" ? "active" : ""}
+        onClick={() => setButton("automatic")}
+      >
+        Loading Bar
+      </button>
+      <button
+        className={button === "manual" ? "active" : ""}
+        onClick={() => setButton("manual")}
+      >
+        Manual Counter
+      </button>
       <ColoredBox button={button} />
       <AutomaticCounter button={button} />
       <ManualCounter button={button} />
